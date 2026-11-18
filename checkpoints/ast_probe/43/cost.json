@@ -1,0 +1,7 @@
+{
+  "feature_stage_wall_seconds": 1791.0767269000062,
+  "head_training_and_validation_seconds": 3.288131199995405,
+  "hardware": "Quadro P1000",
+  "total_parameters": 86227250,
+  "trainable_parameters": 39986
+}

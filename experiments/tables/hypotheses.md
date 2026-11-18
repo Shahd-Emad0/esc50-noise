@@ -1,0 +1,8 @@
+**Hypothesis verdicts**
+
+| Hypothesis | Statement | Evidence (test, paired by seed) | Verdict |
+|---|---|---|---|
+| H1 | Pretraining improves noisy-sound classification on small data (EfficientNet-B0 ImageNet vs scratch, mean F1) | Δ = 27.5 ± 0.2 pp, 95% CI [27.1, 28.0] | Supported |
+| H2 | Noise augmentation raises −5 dB macro-F1 while costing < 2 pp on clean audio (SE-CRNN) | Δ = 66.5 ± 2.3 pp, 95% CI [60.9, 72.2]; clean Δ = 5.6 pp | Supported |
+| H3 | Attention pooling improves robustness at −5 dB vs mean pooling (SE-CRNN) | Δ = 1.2 ± 1.4 pp, 95% CI [-2.1, 4.6] | Not supported (95% CI includes 0) |
+| H4 | Models trained with white noise lose accuracy on unseen pink noise at the same SNR (AST (AudioSet, frozen) + trained head, white 0 dB − pink 0 dB) | Δ = -0.3 ± 0.7 pp, 95% CI [-2.1, 1.6]; pink < white in 5/7 models | Not supported (95% CI includes 0) |

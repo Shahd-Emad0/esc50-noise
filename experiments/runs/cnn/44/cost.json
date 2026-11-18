@@ -1,0 +1,12 @@
+{
+  "params": 1185490,
+  "trainable": 1185490,
+  "size_mb": 5.052569389343262,
+  "train_seconds": 354.91156566799964,
+  "peak_mem_mb": 1075.90966796875,
+  "hardware": "Tesla T4",
+  "train_samples": 1280,
+  "epochs": 60,
+  "infer_ms_per_clip": 2.063175450075505,
+  "infer_hardware": "Tesla T4"
+}

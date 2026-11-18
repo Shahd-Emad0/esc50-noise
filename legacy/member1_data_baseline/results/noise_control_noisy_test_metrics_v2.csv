@@ -1,0 +1,13 @@
+model,split,snr_db,n_samples,accuracy,macro_f1
+clean_only,test_noisy,10,400,0.22,0.19304198480906262
+clean_only,test_noisy,5,400,0.105,0.0952112444925512
+clean_only,test_noisy,0,400,0.04,0.029546764346764346
+clean_only,test_noisy,-5,400,0.025,0.00968689387642006
+clean_upsampled,test_noisy,10,400,0.21,0.18713028671801493
+clean_upsampled,test_noisy,5,400,0.11,0.10076546504390677
+clean_upsampled,test_noisy,0,400,0.04,0.029549384076604707
+clean_upsampled,test_noisy,-5,400,0.025,0.00968689387642006
+noise_augmented,test_noisy,10,400,0.475,0.453432231533591
+noise_augmented,test_noisy,5,400,0.48,0.4592416807478727
+noise_augmented,test_noisy,0,400,0.45,0.4313121290743178
+noise_augmented,test_noisy,-5,400,0.39,0.3774205924685128

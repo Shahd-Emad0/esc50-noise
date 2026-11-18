@@ -1,0 +1,9 @@
+**Table 6 — Error analysis: AST (AudioSet, frozen) + trained head, seed 43, test set**
+
+| Error type | Count (of 400) | Example | Likely cause |
+|---|---|---|---|
+| Intrinsic confusion (wrong even on clean audio) | 15 | 1-50454-A-44.wav: engine → helicopter | acoustically similar classes / few (40) examples per class |
+| Noise masking (correct clean → wrong at −5 dB) | 73 | 1-202111-A-3.wav: cow → snoring | low-energy or transient events buried below the noise floor |
+| Broadband attractor (−5 dB error predicted as a noise-like class) | 46 | 1-208757-A-2.wav: pig → train | white noise resembles wind/rain/engine textures, so the model labels the noise, not the event |
+| Unseen noise colour (correct at white 0 dB → wrong at pink 0 dB) | 18 | 1-208757-A-2.wav: pig → train | pink noise concentrates energy at low frequencies, masking bands not covered by training noise |
+| Most frequent −5 dB confusion pair | 3 | door_wood_creaks → engine | overlapping spectral envelope once fine structure is masked |

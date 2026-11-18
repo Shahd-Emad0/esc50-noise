@@ -1,0 +1,5 @@
+model: cnn
+display: Classic CNN (scratch)
+category: classic
+role: main
+layers: 4 x [Conv3x3-BN-ReLU x2, MaxPool] (32-256 ch) -> GAP -> Dropout -> FC

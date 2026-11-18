@@ -1,0 +1,5 @@
+model: crnn_attention
+display: SE-CRNN lr=3e-4
+category: advanced
+role: hp
+lr: 0.0003

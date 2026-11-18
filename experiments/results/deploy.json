@@ -1,0 +1,17 @@
+{
+  "best": "ast_probe",
+  "seeds": {
+    "ast_probe": 43,
+    "cnn": 42,
+    "crnn_attention": 43,
+    "crnn_lr3e-3": 44,
+    "crnn_lr3e-4": 43,
+    "crnn_no_attention": 42,
+    "crnn_no_noise": 43,
+    "crnn_no_specaug": 43,
+    "efficientnet_pretrained": 44,
+    "efficientnet_scratch": 44,
+    "svm_clean": 42,
+    "svm_noise": 42
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "supplementary exploratory validation-only analysis after final test had been viewed",
+  "final_model_changed": false,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 30,
+  "batch_size": 64,
+  "examples_per_epoch": 2560,
+  "optimizer_steps_per_epoch": 40,
+  "no_noise_arm": "Duplicate each clean embedding to match example/update budget",
+  "encoder": "frozen original AudioSet AST",
+  "initialization": "same explicit random head initialization per seed across arms; not old head RNG initialization",
+  "selection": "mean validation Macro F1 over five conditions",
+  "scratch_comparison": false
+}

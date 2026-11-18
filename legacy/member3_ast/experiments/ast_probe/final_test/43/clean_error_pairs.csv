@@ -1,0 +1,17 @@
+true_category,predicted_category,count
+helicopter,airplane,2
+brushing_teeth,hand_saw,1
+clock_alarm,water_drops,1
+chirping_birds,crickets,1
+coughing,sneezing,1
+cow,snoring,1
+engine,helicopter,1
+clock_tick,keyboard_typing,1
+footsteps,keyboard_typing,1
+laughing,hen,1
+rain,keyboard_typing,1
+sheep,chainsaw,1
+washing_machine,brushing_teeth,1
+wind,airplane,1
+wind,sea_waves,1
+wind,vacuum_cleaner,1

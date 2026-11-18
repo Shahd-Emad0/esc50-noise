@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+data/ESC-50-master/
+data/cache/
+data/esc50.zip
+experiments/runs/*/*/model.pt
+*.joblib
+!checkpoints/**/*.joblib
+experiments/runs/ast_probe/test_embeddings.pt
+test_embeddings.pt
+experiments/_quick/
+report/_quick/
+*.log
+*.err

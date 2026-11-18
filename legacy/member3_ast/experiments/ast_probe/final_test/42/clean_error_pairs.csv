@@ -1,0 +1,15 @@
+true_category,predicted_category,count
+helicopter,airplane,3
+clock_tick,keyboard_typing,1
+cow,snoring,1
+crying_baby,laughing,1
+engine,helicopter,1
+coughing,sneezing,1
+footsteps,keyboard_typing,1
+laughing,hen,1
+sheep,chainsaw,1
+vacuum_cleaner,chainsaw,1
+wind,airplane,1
+wind,sea_waves,1
+wind,train,1
+wind,washing_machine,1

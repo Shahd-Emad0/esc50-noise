@@ -1,0 +1,7 @@
+**Hyper-parameter study (SE-CRNN, validation set only, 3 seeds)**
+
+| Learning rate | Val selection F1 | Val clean F1 | Val −5 dB F1 | Best epoch |
+|---|---|---|---|---|
+| 0.0003 | 66.8 ± 1.4 | 70.1 | 61.5 | 54 |
+| 0.001 | 66.6 ± 1.9 | 71.1 | 60.9 | 45 |
+| 0.003 | 66.7 ± 2.2 | 70.4 | 62.3 | 54 |

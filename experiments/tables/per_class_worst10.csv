@@ -1,0 +1,11 @@
+class,clean,-5dB
+engine,90.8,29.8
+wind,69.0,35.2
+rain,95.6,44.9
+helicopter,77.1,48.8
+vacuum_cleaner,97.8,55.5
+keyboard_typing,85.8,66.8
+footsteps,93.3,66.8
+clock_alarm,97.8,67.7
+door_wood_creaks,100.0,68.3
+chainsaw,92.4,70.0

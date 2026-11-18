@@ -1,0 +1,11 @@
+{
+  "params": 86227250,
+  "trainable": 39986,
+  "size_mb": 328.9308547973633,
+  "train_seconds": 1826.2683379999944,
+  "peak_mem_mb": null,
+  "hardware": "Quadro P1000",
+  "head_file": "/content/esc50-noise/checkpoints/ast_probe/44/best_head.pth",
+  "infer_ms_per_clip": 101.3241481001387,
+  "infer_hardware": "Tesla T4"
+}

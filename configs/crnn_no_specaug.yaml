@@ -1,0 +1,6 @@
+model: crnn_attention
+display: SE-CRNN, no SpecAugment
+category: advanced
+role: ablation
+specaug: false
+removed: SpecAugment

@@ -1,0 +1,6 @@
+model: crnn_attention
+display: SE-CRNN, no noise augmentation
+category: advanced
+role: ablation
+noise_aug: false
+removed: noise augmentation

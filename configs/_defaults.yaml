@@ -1,0 +1,13 @@
+# Shared protocol: identical for every trainable model (fair comparison). Configs override only what they study.
+pretrained: false
+attention: true
+specaug: true          # 1 frequency mask (<=24 bins) + 1 time mask (<=48 frames)
+noise_aug: true        # p=0.5 per clip, white noise at SNR drawn from {10,5,0,-5} dB
+noise_p: 0.5
+optimizer: AdamW
+lr: 0.001              # OneCycle schedule, 10% warm-up
+weight_decay: 0.01
+epochs: 60
+batch_size: 32
+loss: cross-entropy
+seeds: [42, 43, 44]

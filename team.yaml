@@ -1,0 +1,10 @@
+# Edit if needed, then:  python run_all.py --report   (rebuilds report + slides)
+team_name: D07
+ta: Eng. Mohamed Ashraf
+github: https://github.com/YOUR_USER/esc50-noise
+members:
+  - {name: "Rania Hamdy Gomaa", id: "202302910", role: "Data audit, group split, MFCC + SVM baseline, noise protocol"}
+  - {name: "Heba Atef Farouk", id: "202301959", role: "Classic CNN, EfficientNet-B0 pretrained vs scratch"}
+  - {name: "Roqaya Ebrahim Elghandour", id: "202302796", role: "AST modern model, AST learning-rate study and augmentation ablation"}
+  - {name: "Nour Osama Hassan", id: "202301336", role: "SE-CRNN attention model, ablation study, error analysis"}
+  - {name: "Shahd Emad", id: "202301173", role: "Shared evaluation, cost report, live demo, report and slides"}

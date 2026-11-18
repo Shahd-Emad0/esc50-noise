@@ -1,0 +1,53 @@
+{
+  "manifest_sha256": "eed5f196072c20295cf73b9061b5f2aed20facf890ca54b3f8ae1062bdcb8b2a",
+  "model_id": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "revision": "f826b80d28226b62986cc218e5cec390b1096902",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "sr": 16000,
+  "seconds": 5,
+  "noise_seed": 2026,
+  "conditions": [
+    "clean",
+    "10dB",
+    "5dB",
+    "0dB",
+    "-5dB"
+  ],
+  "hardware": "Quadro P1000",
+  "total_parameters": 86227250,
+  "full_state_tensor_bytes": 344909000,
+  "peak_cuda_allocated_bytes": 404701184,
+  "timing_note": "Batch size 1, warmed model-only forward: backbone plus head. Excludes preprocessing, transfers, disk I/O. Backbone timing shared across identical frozen backbones; not three independent latency measurements.",
+  "feature_stage_costs": [
+    {
+      "condition": "clean",
+      "feature_extraction_wall_seconds": 190.54974159999983,
+      "backbone_forward_seconds": 177.84549250009877
+    },
+    {
+      "condition": "10dB",
+      "feature_extraction_wall_seconds": 188.19137220000266,
+      "backbone_forward_seconds": 177.7104272999568
+    },
+    {
+      "condition": "5dB",
+      "feature_extraction_wall_seconds": 186.40286259999266,
+      "backbone_forward_seconds": 177.76714470007573
+    },
+    {
+      "condition": "0dB",
+      "feature_extraction_wall_seconds": 186.22922539999126,
+      "backbone_forward_seconds": 177.72902109984716
+    },
+    {
+      "condition": "-5dB",
+      "feature_extraction_wall_seconds": 186.74021360000188,
+      "backbone_forward_seconds": 177.79765150006278
+    }
+  ],
+  "comparison_note": "AST mixes at 16 kHz. EfficientNet used 22.05 kHz, so noise waveforms differ despite identical filename seeds/SNR. Treat prior cross-model comparison as exploratory."
+}

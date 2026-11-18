@@ -1,0 +1,3 @@
+Model,Val selection F1,Clean,−5 dB,Pink 0 dB,Mean
+EfficientNet-B0 (ImageNet pretrained),78.9,87.4 ± 0.6,77.9 ± 2.4,69.4 ± 1.9,84.1 ± 1.0
+EfficientNet-B0 (scratch),50.9,59.7 ± 2.5,50.5 ± 1.1,36.6 ± 2.4,56.5 ± 1.1

@@ -1,0 +1,11 @@
+{
+  "params": 163701,
+  "trainable": "n/a (convex)",
+  "size_mb": 1.7609376907348633,
+  "train_seconds": 34.66951301800009,
+  "peak_mem_mb": null,
+  "hardware": "CPU",
+  "train_samples": 1280,
+  "infer_ms_per_clip": 83.28822039984516,
+  "infer_hardware": "Tesla T4"
+}

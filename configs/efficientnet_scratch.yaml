@@ -1,0 +1,6 @@
+model: efficientnet_b0
+display: EfficientNet-B0 (scratch)
+category: modern
+role: main
+pretrained: false
+layers: EfficientNet-B0 MBConv+SE stages -> GAP -> FC

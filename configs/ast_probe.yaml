@@ -1,0 +1,12 @@
+model: ast
+display: AST (AudioSet, frozen) + trained head
+category: modern
+role: main
+pretrained: true
+lr: 0.001
+weight_decay: 0.001
+batch_size: 64
+epochs: 30
+specaug: false
+layers: 16x16 patch embedding -> 12 Transformer layers (768-d, frozen) -> LayerNorm -> FC
+note: trained by Roqaya Ebrahim Elghandour (legacy/member3_ast), 1 noisy copy per clip; heads in checkpoints/ast_probe

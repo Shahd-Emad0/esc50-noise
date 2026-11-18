@@ -1,0 +1,24 @@
+{
+  "model": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "revision": "f826b80d28226b62986cc218e5cec390b1096902",
+  "manifest_sha256": "eed5f196072c20295cf73b9061b5f2aed20facf890ca54b3f8ae1062bdcb8b2a",
+  "audio_root": "C:\\Users\\d\\Desktop\\ESC50_Member3\\ESC-50\\audio",
+  "seed": 44,
+  "sr": 16000,
+  "duration": 5,
+  "noise": "one copy per train clip, SNR in [10,5,0,-5]",
+  "extractor": {
+    "feature_size": 1,
+    "sampling_rate": 16000,
+    "padding_value": 0.0,
+    "padding_side": "right",
+    "return_attention_mask": false,
+    "_processor_class": null,
+    "feature_extractor_type": "ASTFeatureExtractor",
+    "num_mel_bins": 128,
+    "max_length": 1024,
+    "do_normalize": true,
+    "mean": -4.2677393,
+    "std": 4.5689974
+  }
+}

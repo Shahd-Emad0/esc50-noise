@@ -1,0 +1,6 @@
+model: crnn_attention
+display: SE-CRNN, attention -> mean pooling
+category: advanced
+role: ablation
+attention: false
+removed: attention pooling

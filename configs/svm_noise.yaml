@@ -1,0 +1,6 @@
+model: svm
+display: SVM baseline (MFCC, noise-augmented)
+category: baseline
+role: main
+noise_aug: true
+layers: 40 MFCC mean+std (80-d) -> StandardScaler -> RBF SVM (C=10)

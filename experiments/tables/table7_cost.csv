@@ -1,0 +1,8 @@
+Model,Parameters,Size (MB),Train time (min/seed),Inference (ms/clip),Peak GPU mem (MB),Hardware
+"AST (AudioSet, frozen) + trained head","86,227,250",328.9,30.1,101.6,–,Quadro P1000 (inference: Tesla T4)
+Classic CNN (scratch),"1,185,490",5.1,5.9,2.2,1076,Tesla T4
+SE-CRNN + attention pooling,"1,323,842",5.6,7.4,4.6,1513,Tesla T4
+EfficientNet-B0 (ImageNet pretrained),"4,071,022",16.3,5.5,11.5,1601,Tesla T4
+EfficientNet-B0 (scratch),"4,071,022",16.3,5.5,9.4,1601,Tesla T4
+"SVM baseline (MFCC, clean training)","163,701",1.8,0.4,59.1,–,CPU
+"SVM baseline (MFCC, noise-augmented)","455,499",4.8,0.9,57.0,–,CPU

@@ -1,0 +1,5 @@
+model: crnn_attention
+display: SE-CRNN + attention pooling
+category: advanced
+role: main
+layers: 4 residual SE conv blocks -> FC 256 -> BiGRU (2x128) -> 4-head attention pooling -> FC

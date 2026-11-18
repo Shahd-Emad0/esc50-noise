@@ -1,0 +1,7 @@
+Component removed,Full model,Clean F1 (Δ),−5 dB F1 (Δ),Pink 0 dB F1 (Δ),Mean F1 (Δ)
+Attention pooling (→ mean pooling),SE-CRNN + attention pooling,76.7 (-2.7 ± 2.1),68.1 (-1.2 ± 1.4),53.2 (-3.8 ± 2.0),74.3 (-1.0 ± 0.6)
+Noise augmentation,SE-CRNN + attention pooling,73.7 (-5.6 ± 8.5),2.8 (-66.5 ± 2.3),26.7 (-30.3 ± 1.3),29.6 (-45.6 ± 1.1)
+SpecAugment,SE-CRNN + attention pooling,75.5 (-3.8 ± 2.3),65.4 (-3.9 ± 2.0),56.8 (-0.2 ± 2.9),72.1 (-3.2 ± 1.0)
+ImageNet pretraining,EfficientNet-B0 (ImageNet pretrained),59.7 (-27.8 ± 2.5),50.5 (-27.4 ± 3.1),36.6 (-32.9 ± 2.7),56.5 (-27.5 ± 0.2)
+Noise augmentation (SVM baseline),"SVM baseline (MFCC, noise-augmented)",52.0 (+10.5 ± 0.5),0.1 (-36.4 ± 2.1),1.9 (-19.5 ± 0.3),14.7 (-27.7 ± 1.2)
+"Noise augmentation (AST head, validation, Roqaya)",AST + head,–,–,–,73.5 (-14.1)
