@@ -225,7 +225,7 @@ Evaluate on real recorded noise (e.g. mixing with public background-noise corpor
 
 [12] K. Cho et al., "Learning phrase representations using RNN encoder–decoder for statistical machine translation," in Proc. EMNLP, 2014.
 
-[13] A. Vaswani et al., "Attention is all you need," in Proc. NeurIPS, 2017.
+[13] A. Vaswani et al., "Attention is all you need," in Advances in Neural Information Processing Systems 30 (NIPS), 2017.
 
 [14] I. Loshchilov, F. Hutter, "Decoupled weight decay regularization," in Proc. ICLR, 2019.
 

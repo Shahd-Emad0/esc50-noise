@@ -1,1 +1,7 @@
-Week,Task,Hours,Evidence (commits, runs, report sections),Problems,Co-signed by (teammate)
+Week,Task,Hours,"Evidence (commits, runs, report sections)",Problems,Co-signed by (teammate)
+1,Design of the advanced hybrid model (residual SE blocks + BiGRU),5 (confirm),report Sec. 10 (advanced model); docs/EXPERIMENT_PROTOCOL.md,–,Shahd Emad
+2,SE-CRNN and team-written multi-head attention pooling layer,7 (confirm),src/models/crnn_attention.py; configs/crnn_attention.yaml,Keeping parameters close to the classic CNN (~1.3 M),Shahd Emad
+3,"Ablation configs (mean pooling, no noise, no SpecAugment) and LR study",5 (confirm),"configs/crnn_no_attention.yaml, crnn_no_noise.yaml, crnn_no_specaug.yaml, crnn_lr3e-4.yaml, crnn_lr3e-3.yaml",–,Shahd Emad
+4,"Ablation and hyper-parameter result tables, hypotheses H2-H3",4 (confirm),"experiments/tables/table5_ablation.md, study_hyperparameters.md, hypotheses.md",Attention effect within seed variance (H3 not supported),Shahd Emad
+5,"Error analysis: error categories, confusion pairs, spectrogram examples",5 (confirm),"experiments/tables/table6_error_analysis.md, error_pairs_-5dB.csv; experiments/figures/error_examples.png, confusion_-5dB.png",–,Shahd Emad
+6,Report text for ablation and error analysis; slides 10-12,3 (confirm),report Sec. 15-16; report/D07_Slides.pptx,SE-CRNN below plain CNN: discussed honestly,Shahd Emad

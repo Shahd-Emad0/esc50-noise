@@ -142,4 +142,4 @@ demo/app.py     Gradio demo          report/  report + slides builder
 contributions/  individual logs + peer evaluation      legacy/  original Member 1 / Member 3 handoffs
 ```
 
-**Large files (all checkpoints):** SHARED_DRIVE_LINK_HERE
+**Large files (all checkpoints):** Final checkpoints are in checkpoints/ in this repository; every other run can be reproduced with python run_all.py.

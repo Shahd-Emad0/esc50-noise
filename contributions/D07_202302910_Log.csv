@@ -1,1 +1,7 @@
-Week,Task,Hours,Evidence (commits, runs, report sections),Problems,Co-signed by (teammate)
+Week,Task,Hours,"Evidence (commits, runs, report sections)",Problems,Co-signed by (teammate)
+1,"Dataset download and audit of ESC-50 metadata (classes, folds, src_file)",6 (confirm),legacy/member1_data_baseline/scripts/01_data_audit.py; docs/DATASET_CARD.md,Same src_file found in more than one official fold,Heba Atef Farouk
+2,"Leakage-free StratifiedGroupKFold split (1,280 / 320 / 400) and manifest",6 (confirm),legacy/member1_data_baseline/scripts/02_make_group_split_v2.py; data/split_manifest.csv; report Sec. 6,Balancing all 50 classes per split while grouping by source,Heba Atef Farouk
+3,MFCC feature extraction and RBF-SVM baseline,5 (confirm),"legacy/member1_data_baseline/scripts/03_extract_mfcc_v2.py, 04_baseline_eval_v2.py; src/models/baseline_svm.py; report Sec. 9",–,Heba Atef Farouk
+4,White-noise augmentation protocol (SNR 10/5/0/-5 dB) and noisy-copy SVM,5 (confirm),"legacy/member1_data_baseline/scripts/05_noise_augmentation.py, 06_noise_control_comparison.py; configs/svm_clean.yaml, svm_noise.yaml",Clean-trained SVM collapses below 5 dB,Heba Atef Farouk
+5,Review of shared noise mixer and dataset sections of the report,3 (confirm),src/datasets/noise.py (review); report Sec. 6-7; Table 1,–,Heba Atef Farouk
+6,Final check of baseline numbers and slides on data/split,2 (confirm),experiments/tables/table4_main_results.md (SVM rows); report/D07_Slides.pptx slide 4,–,Heba Atef Farouk

@@ -1,1 +1,7 @@
-Week,Task,Hours,Evidence (commits, runs, report sections),Problems,Co-signed by (teammate)
+Week,Task,Hours,"Evidence (commits, runs, report sections)",Problems,Co-signed by (teammate)
+1,Literature review of CNNs for ESC-50 and log-mel front end,4 (confirm),report Sec. 5 (convolutional models),–,Roqaya Ebrahim Elghandour
+2,Classic VGG-style CNN implementation,6 (confirm),src/models/cnn.py; configs/cnn.yaml,Choosing depth so parameters match the SE-CRNN (~1.2 M),Roqaya Ebrahim Elghandour
+3,EfficientNet-B0 with 1-channel stem (ImageNet and scratch),6 (confirm),"src/models/efficientnet.py; configs/efficientnet_pretrained.yaml, efficientnet_scratch.yaml",Adapting the RGB stem to one input channel,Roqaya Ebrahim Elghandour
+4,"Training runs, 3 seeds each (CNN, EfficientNet pretrained/scratch)",5 (confirm),"experiments/runs/cnn, efficientnet_pretrained, efficientnet_scratch","Scratch EfficientNet under-fits with 1,280 clips",Roqaya Ebrahim Elghandour
+5,Pretrained-vs-scratch study and hypothesis H1,4 (confirm),experiments/tables/study_pretrained_vs_scratch.md; hypotheses.md (H1); report Sec. 14,–,Roqaya Ebrahim Elghandour
+6,Report text for classic and EfficientNet models; slide rehearsal,3 (confirm),report Sec. 10; report/D07_Slides.pptx,–,Roqaya Ebrahim Elghandour

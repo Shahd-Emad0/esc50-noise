@@ -1,1 +1,7 @@
-Week,Task,Hours,Evidence (commits, runs, report sections),Problems,Co-signed by (teammate)
+Week,Task,Hours,"Evidence (commits, runs, report sections)",Problems,Co-signed by (teammate)
+1,Study of the Audio Spectrogram Transformer and AudioSet checkpoint,4 (confirm),report Sec. 5 (Transformers); legacy/member3_ast/README.md,–,Nour Osama Hassan
+2,Frozen AST embedding extraction and cached features,6 (confirm),"legacy/member3_ast/train_ast_probe.py, src/core.py; src/models/ast_probe.py","4 GB GPU memory: encoder kept frozen, embeddings cached",Nour Osama Hassan
+3,"LayerNorm + linear head training, 3 seeds, validation-only selection",6 (confirm),"checkpoints/ast_probe/{42,43,44}/best_head.pth; configs/ast_probe.yaml",–,Nour Osama Hassan
+4,AST learning-rate study and noise-augmentation ablation (validation),5 (confirm),legacy/member3_ast/run_cached_studies.py; legacy/member3_ast/experiments/ast_probe/supplementary_studies/,Differences between learning rates < 0.5 points,Nour Osama Hassan
+5,Test evaluation and AST documentation,4 (confirm),legacy/member3_ast/evaluate_ast_test.py; legacy/member3_ast/docs/MODERN_APPROACH_REPORT.md,–,Nour Osama Hassan
+6,"Report text for AST, Table 5 AST row, slide review",3 (confirm),"report Sec. 10, 12, 15",–,Nour Osama Hassan

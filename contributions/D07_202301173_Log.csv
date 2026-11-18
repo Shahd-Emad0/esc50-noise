@@ -1,1 +1,7 @@
-Week,Task,Hours,Evidence (commits, runs, report sections),Problems,Co-signed by (teammate)
+Week,Task,Hours,"Evidence (commits, runs, report sections)",Problems,Co-signed by (teammate)
+1,"Shared fair protocol and project skeleton (configs, one-command pipeline)",5 (confirm),configs/_defaults.yaml; run_all.py; src/train.py; README.md,–,Rania Hamdy Gomaa
+2,"Shared evaluation: identical noisy test sets, metrics, per-class F1",6 (confirm),src/evaluate.py; src/datasets/esc50.py (condition_set),–,Rania Hamdy Gomaa
+3,"Cost measurement (train/inference time, params, size, memory)",4 (confirm),src/evaluate.py (time_inference); experiments/tables/table7_cost.md,–,Rania Hamdy Gomaa
+4,Gradio live demo with noise injection,4 (confirm),demo/app.py,–,Rania Hamdy Gomaa
+5,"Final runs on Google Colab (Tesla T4, 60 epochs) and analysis",6 (confirm),experiments/runs/; experiments/results/test_metrics.csv; src/analysis.py,No local CUDA GPU; Windows UTF-8 encoding fix in analysis,Rania Hamdy Gomaa
+6,"Report, slides, GitHub repository and submission",6 (confirm),"report/report_template.md, build_report.py, D07_Report.pdf, D07_Slides.pptx; github.com/Shahd-Emad0/esc50-noise",–,Rania Hamdy Gomaa
